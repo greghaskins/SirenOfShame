@@ -12,6 +12,7 @@ copy ..\SirenOfShame\bin\SignalR.Client.dll .\BuildArtifacts\%1\SignalR.Client.d
 
 copy ..\SirenOfShame\bin\Plugins\BuildBotServices.dll .\BuildArtifacts\%1\Plugins\BuildBotServices.dll
 copy ..\SirenOfShame\bin\Plugins\TravisCiServices.dll .\BuildArtifacts\%1\Plugins\TravisCiServices.dll
+copy ..\SirenOfShame\bin\Plugins\VisualStudioOnlineServices.dll .\BuildArtifacts\%1\Plugins\VisualStudioOnlineServices.dll
 copy ..\SirenOfShame\bin\Plugins\BambooServices.dll .\BuildArtifacts\%1\Plugins\BambooServices.dll
 copy ..\SirenOfShame\bin\Plugins\CruiseControlNetServices.dll .\BuildArtifacts\%1\Plugins\CruiseControlNetServices.dll
 copy ..\SirenOfShame\bin\Plugins\HudsonServices.dll .\BuildArtifacts\%1\Plugins\HudsonServices.dll
