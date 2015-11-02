@@ -11,7 +11,7 @@ namespace VisualStudioOnlineServices
     {
         public ConfigureServerBase CreateConfigurationWindow(SirenOfShameSettings settings, CiEntryPointSetting ciEntryPointSetting)
         {
-            throw new System.NotImplementedException();
+            return new ConfigureVisualStudioOnline();
         }
 
         public string Name => "VisualStudioOnline";
