@@ -41,6 +41,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.tokenTTextBox = new System.Windows.Forms.TextBox();
             this.connectButton = new SirenOfShame.Lib.SosButton();
+            this.buildListBox = new System.Windows.Forms.CheckedListBox();
             this.SuspendLayout();
             // 
             // label1
@@ -56,7 +57,7 @@
             // 
             this.accountTextBox.Location = new System.Drawing.Point(66, 4);
             this.accountTextBox.Name = "accountTextBox";
-            this.accountTextBox.Size = new System.Drawing.Size(291, 20);
+            this.accountTextBox.Size = new System.Drawing.Size(118, 20);
             this.accountTextBox.TabIndex = 1;
             // 
             // contextMenuStrip1
@@ -66,15 +67,15 @@
             // 
             // projectTestBox
             // 
-            this.projectTestBox.Location = new System.Drawing.Point(66, 30);
+            this.projectTestBox.Location = new System.Drawing.Point(236, 4);
             this.projectTestBox.Name = "projectTestBox";
-            this.projectTestBox.Size = new System.Drawing.Size(291, 20);
+            this.projectTestBox.Size = new System.Drawing.Size(182, 20);
             this.projectTestBox.TabIndex = 4;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(5, 33);
+            this.label2.Location = new System.Drawing.Point(190, 7);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(40, 13);
             this.label2.TabIndex = 3;
@@ -83,7 +84,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(5, 63);
+            this.label3.Location = new System.Drawing.Point(31, 36);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(306, 13);
             this.label3.TabIndex = 5;
@@ -92,7 +93,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(5, 95);
+            this.label4.Location = new System.Drawing.Point(5, 68);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(55, 13);
             this.label4.TabIndex = 0;
@@ -100,9 +101,9 @@
             // 
             // usernameTextBox
             // 
-            this.usernameTextBox.Location = new System.Drawing.Point(66, 92);
+            this.usernameTextBox.Location = new System.Drawing.Point(66, 65);
             this.usernameTextBox.Name = "usernameTextBox";
-            this.usernameTextBox.Size = new System.Drawing.Size(291, 20);
+            this.usernameTextBox.Size = new System.Drawing.Size(118, 20);
             this.usernameTextBox.TabIndex = 1;
             // 
             // contextMenuStrip2
@@ -113,7 +114,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(5, 121);
+            this.label5.Location = new System.Drawing.Point(5, 94);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(38, 13);
             this.label5.TabIndex = 0;
@@ -121,9 +122,9 @@
             // 
             // tokenTTextBox
             // 
-            this.tokenTTextBox.Location = new System.Drawing.Point(66, 118);
+            this.tokenTTextBox.Location = new System.Drawing.Point(66, 91);
             this.tokenTTextBox.Name = "tokenTTextBox";
-            this.tokenTTextBox.Size = new System.Drawing.Size(291, 20);
+            this.tokenTTextBox.Size = new System.Drawing.Size(244, 20);
             this.tokenTTextBox.TabIndex = 1;
             // 
             // connectButton
@@ -135,17 +136,26 @@
             this.connectButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(65)))), ((int)(((byte)(0)))));
             this.connectButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.connectButton.ForeColor = System.Drawing.Color.White;
-            this.connectButton.Location = new System.Drawing.Point(8, 154);
+            this.connectButton.Location = new System.Drawing.Point(393, 89);
             this.connectButton.Name = "connectButton";
             this.connectButton.Size = new System.Drawing.Size(75, 23);
             this.connectButton.TabIndex = 8;
             this.connectButton.Text = "Connect";
             this.connectButton.UseVisualStyleBackColor = false;
             // 
+            // buildListBox
+            // 
+            this.buildListBox.FormattingEnabled = true;
+            this.buildListBox.Location = new System.Drawing.Point(8, 118);
+            this.buildListBox.Name = "buildListBox";
+            this.buildListBox.Size = new System.Drawing.Size(460, 79);
+            this.buildListBox.TabIndex = 9;
+            // 
             // ConfigureVisualStudioOnline
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.buildListBox);
             this.Controls.Add(this.connectButton);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.projectTestBox);
@@ -157,7 +167,7 @@
             this.Controls.Add(this.accountTextBox);
             this.Controls.Add(this.label1);
             this.Name = "ConfigureVisualStudioOnline";
-            this.Size = new System.Drawing.Size(360, 200);
+            this.Size = new System.Drawing.Size(482, 202);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -177,5 +187,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox tokenTTextBox;
         private SirenOfShame.Lib.SosButton connectButton;
+        private System.Windows.Forms.CheckedListBox buildListBox;
     }
 }
